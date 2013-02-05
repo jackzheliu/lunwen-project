@@ -33,34 +33,6 @@ class Lunwen_TEXTMESS_Model_Observer extends Mage_Core_Model_Abstract
  			$sendInfoText = Mage::helper('lunwen_textmess')->sendingText($owner_phonenumber,$sms_api, $sms_key, $sms_number, $ownercontrol_messagemyself);
 
     	}
-
-          public function textStatus($observer)
-        {
-        $enable_sms_status = Mage::getStoreConfig('lunwen_textmess/general/enable_sms_status');
-        $ownercontrol_statusChange  = Mage::getStoreConfig('lunwen_textmess/ownercontrol/ownercontrol_statusChange');    
-        $enable_comments = Mage::getStoreConfig('lunwen_textmess/general/enable_comments');
-
-
-        if($enable_comments){    
-
-            $event = $observer->getEvent();
-            $orderID = $event->getOrderIds();
-            $order=Mage::getModel('sales/order')->load($orderID);
-            $customerPhoneNumber = '+44'.$order->getBillingAddress()->getTelephone();
-            $orderStatus = $order->getStatus();
-
-            $message = 'Hi Dear Customer, you order status has changed'.$orderStatus;
-
-            $sendInfoText = Mage::helper('lunwen_textmess')->sendingText($customerPhoneNumber,$message);
-        }
-        return $this;
-    }
-
-
-    	
-
-
-
  		
         return $this;
     }
