@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+        <Lunwen_TEXTMESS>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lunwen_TEXTMESS>
+     </modules>
+</config>
