@@ -364,6 +364,8 @@ class Mage_Customer_Model_Address_Abstract extends Mage_Core_Model_Abstract
             $errors[] = Mage::helper('customer')->__('Please enter the last name.');
         }
 
+/*
+
         if (!Zend_Validate::is($this->getStreet(1), 'NotEmpty')) {
             $errors[] = Mage::helper('customer')->__('Please enter the street.');
         }
@@ -372,9 +374,14 @@ class Mage_Customer_Model_Address_Abstract extends Mage_Core_Model_Abstract
             $errors[] = Mage::helper('customer')->__('Please enter the city.');
         }
 
+*/
+
         if (!Zend_Validate::is($this->getTelephone(), 'NotEmpty')) {
             $errors[] = Mage::helper('customer')->__('Please enter the telephone number.');
         }
+
+/*
+
 
         $_havingOptionalZip = Mage::helper('directory')->getCountriesWithOptionalZip();
         if (!in_array($this->getCountryId(), $_havingOptionalZip)
@@ -394,6 +401,7 @@ class Mage_Customer_Model_Address_Abstract extends Mage_Core_Model_Abstract
             $errors[] = Mage::helper('customer')->__('Please enter the state/province.');
         }
 
+*/
         if (empty($errors) || $this->getShouldIgnoreValidation()) {
             return true;
         }
