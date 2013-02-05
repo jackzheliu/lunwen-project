@@ -1,0 +1,26 @@
+font:/*BEGIN:general_font*/12px/1.35 Arial, Helvetica, sans-serif/*END:general_font*/;
+font:/*BEGIN:h1_font*/normal 24px/1.15 helvetica,arial,sans-serif/*END:h1_font*/; 
+font:/*BEGIN:h2_font*/normal 20px/1.25 helvetica,arial,sans-serif/*END:h2_font*/;
+font:/*BEGIN:h3_font*/normal 18px/1.25 helvetica,arial,sans-serif/*END:h3_font*/;
+font:/*BEGIN:h4_font*/normal 16px/1.35 helvetica,arial,sans-serif/*END:h4_font*/;
+font:/*BEGIN:h5_font*/normal 14px/1.35 helvetica,arial,sans-serif/*END:h5_font*/; 
+
+color:/*BEGIN:secondary_color*/#e20625/*END:secondary_color*/;/*red*/
+color:/*BEGIN:secondary2_color*/#64B40D/*END:secondary2_color*/; 
+color:/*BEGIN:general_color*/#999898/*END:general_color*/;
+color:/*BEGIN:primary_color*/#101010/*END:primary_color*/;
+color:/*BEGIN:negative_color*/#ffffff/*END:negative_color*/; 
+color:/*BEGIN:negative2_color*/#7e7d7d/*END:negative2_color*/ ;
+
+background-color:/*BEGIN:primary_bgcolor*/#ffffff/*END:primary_bgcolor*/;
+background:/*BEGIN:secondary_bgcolor*/#000000/*END:secondary_bgcolor*/;
+
+border-top:1px solid /*BEGIN:line_color*/#cfcfcf/*END:line_color*/;
+border-top:1px solid /*BEGIN:secondary_bgcolor*/#101010/*END:secondary_bgcolor*/;
+
+/*BEGIN:button1*/background:#000000; border:1px solid #000000; color:#ffffff; /*END:button1*/
+/*BEGIN:button2*/background:#ffffff; border:1px solid #cccccc; color:#999898;/*END:button2*/
+/*BEGIN:button3*/background:#ffffff; border:1px solid #101010; color:#101010;/*END:button3*/
+/*BEGIN:button4*/background:#e20625; border:1px solid #e20625; color:#ffffff;/*END:button4*/
+
+

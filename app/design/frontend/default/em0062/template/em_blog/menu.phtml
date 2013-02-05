@@ -1,0 +1,54 @@
+<?php if(Mage::getStoreConfig('blog/menu/show_menu_right')):?>
+<div class="block em_blog-cat">
+    <div class="block-title">
+        <strong><span><?php echo $this->__('Blog Categories')?></span></strong>
+    </div>
+    <div class="block-content">
+        <ul id="nav_blog" class="nav-blog">
+            <?php echo $this->renderMenuBlog();?>
+        </ul>
+    </div>
+</div>
+<?php endif;?>
+<script type="text/javascript"> 
+	var lis=$$('#nav_blog li.parent');
+	lis.each(function(li) {
+
+	 var dt = new Element('dt');
+	 var dd = new Element('dd');
+	 var a = li.down(0);
+	 var ul = li.down(2);
+	 dt.insert(a);
+	 dd.insert(ul);
+	 dt.insert("<span class='nav'>nav</span>");
+	 li.insert(dt,{position:top});
+	 li.insert(dd);
+	});
+	 jQuery('#nav_blog li.parent dd ul ').hide();
+	  jQuery('#nav_blog dt span.nav').click(function()  {
+		
+        jQuery('.td_active').removeClass('td_active');
+        var node = jQuery(this).parent().next().find('ul').first();
+        
+        var i = (node.css('display')=="block");
+      
+		var string = jQuery(this).parent().parent().parent().parent().parent().attr('class');
+		if(string.indexOf('parent')!=-1)
+		{
+			jQuery(this).parent().parent().parent().parent().parent().addClass('td_active');
+			jQuery(this).parent().parent().parent().css("display","block");
+			jQuery(this).parent().parent().find('ul').slideUp('500');
+		}
+		else
+		{
+			jQuery('#nav_blog li.parent dd ul:visible').slideUp('500');
+		}
+        jQuery(this).parent().parent().addClass('td_active');    
+        if (i != true) 	
+        {
+        	jQuery(this).parent().next().find('ul').first().slideDown('500');
+        	
+        }
+        return false;
+    });
+</script>

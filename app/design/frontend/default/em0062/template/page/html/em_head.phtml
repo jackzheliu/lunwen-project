@@ -1,0 +1,43 @@
+<?php
+$setting = Mage::helper('em0062settings');
+?>
+<link rel="stylesheet" id="emcssvariation" type="text/css" href="<?php echo $this->getSkinUrl('css/theme.css.php').'?'.http_build_query($setting->getAllCssConfig(), '', '&amp;'); ?>"></link>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+(function() {
+	var el = document.getElementById('emcssvariation');
+	el.parentNode.removeChild(el);
+})();
+</script>
+<link rel="stylesheet" id="emcssvariation" type="text/css" href="<?php echo $this->getSkinUrl('css/theme.css.php').'?ie=1&'.http_build_query($setting->getAllCssConfig(), '', '&amp;'); ?>"></link>
+<![endif]-->
+
+<?php if ($setting->getTypography_GoogleFonts()): ?>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: <?php echo Zend_Json::encode(explode(',', $setting->getTypography_GoogleFonts())) ?> }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+<?php endif ?>
+
+<script type="text/javascript">
+EM_Theme.PRODUCTSGRID_ITEM_WIDTH = <?php echo $setting->getProductsGrid_Width(250) ?>;
+EM_Theme.PRODUCTSGRID_ITEM_SPACING = <?php echo $setting->getProductsGrid_Gutter(90) ?>;
+EM_Theme.CROSSSELL_ITEM_WIDTH = <?php echo $setting->getCrosssell_Width(250) ?>;
+EM_Theme.CROSSSELL_ITEM_SPACING = <?php echo $setting->getCrosssell_Gutter(90) ?>;
+EM_Theme.UPSELL_ITEM_WIDTH = <?php echo $setting->getUpsell_Width(250) ?>;
+EM_Theme.UPSELL_ITEM_SPACING = <?php echo $setting->getUpsell_Gutter(90) ?>;
+</script>
+
+<style type="text/css">
+<?php echo $setting->getTypography_CustomCss(); ?>
+</style>
