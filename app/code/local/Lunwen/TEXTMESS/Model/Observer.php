@@ -25,7 +25,7 @@ class Lunwen_TEXTMESS_Model_Observer extends Mage_Core_Model_Abstract
     		$event = $observer->getEvent();
     		$orderID = $event->getOrderIds();
  			$order=Mage::getModel('sales/order')->load($orderID);
- 			$customerPhoneNumber = '+44'.$order->getShippingAddress()->getTelephone();
+ 			$customerPhoneNumber = '+44'.$order->getBillingAddress()->getTelephone();
 
  			//send a message to the customer
  			$sendInfoText = Mage::helper('lunwen_textmess')->sendingText($customerPhoneNumber,$sms_api, $sms_key, $sms_number, $checkout_message);
