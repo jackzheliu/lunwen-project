@@ -53,7 +53,10 @@ body {
 .grid_21,
 .grid_22,
 .grid_23,
-.grid_24 {
+.grid_24,
+.grid_87,
+.grid_89,
+.grid_90 {
 	display:inline;
 	float: left;
 	position: relative;
@@ -146,6 +149,16 @@ body {
 .container_24 .grid_8 {
 	width:300px;
 }
+
+.container_24 .grid_87 {
+	width:240px;
+}
+
+
+.container_24 .grid_89 {
+	width:380px;
+}
+
 
 .container_24 .grid_9 {
 	width:340px;
