@@ -90,7 +90,8 @@ em.required{color:/*BEGIN:secondary_color*/#e20625/*END:secondary_color*/;}
 ul.hoz > li, ol.hoz > li { float:left; margin:0px 18px; }
 ul.hoz > li:first-child, ol.hoz > li:first-child { margin-left:0 }
 ul.hoz > li:last-child, ol.hoz > li:last-child { margin-right:0 }
-.box1 { border:1px solid /*BEGIN:secondary_bgcolor*/#101010/*END:secondary_bgcolor*/; padding:15px 15px 10px 25px; margin-bottom:25px;}
+.box1 { border:1px solid /*BEGIN:secondary_bgcolor*/#101010/*END:secondary_bgcolor*/; padding:15px 15px 10px 25px; margin-bottom:25px; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 35px; border: 2px solid #FEBF02;}
 .box2 { border:1px solid /*BEGIN:line_color*/#cfcfcf/*END:line_color*/;
 border-top:3px solid /*BEGIN:secondary_bgcolor*/#101010/*END:secondary_bgcolor*/;padding:16px 15px 16px 25px; margin-bottom:27px;}
 .box { border:1px solid /*BEGIN:line_color*/#CFCFCF/*END:line_color*/; padding:10px 20px; margin-bottom:30px }
@@ -445,7 +446,7 @@ ul.add-to-links {
 .nivo-caption{ top:40%;
  bottom:auto!important; text-align:center;
  padding:0!important; background:none transparent!important; opacity:1!important}
-.nivo-caption .nivo_shop{margin-top:29px; display:inline-block}
+.nivo-caption .nivo_shop{margin-top:7px; display:inline-block; margin-left:293px; }
 .nivo-caption .shop-woman{margin-right:100px}
 .nivo-caption .shop-woman,.nivo-caption .shop-man{display:inline-block!important;
  float:left;text-align:left}

@@ -26,15 +26,15 @@
 ?>
 <div class="block block-subscribe">
     <div class="block-title">
-        <strong><span><?php echo $this->__('Newsletter') ?></span></strong>
+        <strong><span><?php echo $this->__('订阅邮件') ?></span></strong>
     </div>
     <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
         <div class="block-content">
             <div class="input-box">
-			   <input type="text" name="email" id="newsletter" onblur="addText(this);" onfocus="clearText(this);" title="<?php echo $this->__('Please enter your email address')  ?>" value="<?php echo $this->__('Please enter your email address')  ?>" class="input-text required-entry validate-email"/>
+			   <input type="text" name="email" id="newsletter" onblur="addText(this);" onfocus="clearText(this);" title="<?php echo $this->__('请输入您的电子邮件 随时向您汇报我们最近的动向 - 特价论文 折扣信息... ')  ?>" value="<?php echo $this->__('请输入您的电子邮件 随时向您汇报我们最近的动向  特价论文 折扣信息...')  ?>" class="input-text required-entry validate-email"/>
             </div>
             <div class="actions">
-                <button type="submit" title="<?php echo $this->__('Subscribe') ?>" class="button"><span><span><?php echo $this->__('Subscribe') ?></span></span></button>
+                <button type="submit" title="<?php echo $this->__('订阅邮件') ?>" class="button"><span><span><?php echo $this->__('订阅邮件') ?></span></span></button>
             </div>
         </div>
     </form>
