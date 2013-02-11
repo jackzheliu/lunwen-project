@@ -118,7 +118,7 @@ ul,ol         { list-style:none; }
 
 /* Content Columns */
 .col2-set .col-1 { float:left; width:49%; }
-.col2-set .col-2 { float:right; width:49%; }
+.col2-set .col-2 { float:right;  width: 41%; }
 .col2-set .col-narrow { width:33%; }
 .col2-set .col-wide { width:65%; }
 
@@ -1143,6 +1143,7 @@ body.quickshop-index-view{ padding:0;}
 
 
 /* Account Login/Create Pages ============================================================ */
+.account-login {padding-bottom:90px;}
 .account-login  h2{ text-transform:uppercase; }
 .account-login .registered-users a { padding-top:6px; display:inline-block;}
 .account-create .form-list .field{ clear:left; }
