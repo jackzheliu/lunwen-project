@@ -183,12 +183,12 @@ background-color: white;}
 .product-view .product-shop .price-box .price{font:/*BEGIN:h3_font*/normal 18px/1.25 helvetica,arial,sans-serif/*END:h3_font*/;font-weight:bold; }
 .product-shop .price-box {margin-bottom:10px}
 .product-view .short-description{border-top:1px solid /*BEGIN:line_color*/#cfcfcf/*END:line_color*/;margin-top:10px; padding-top:10px;}
-.grid_content .product-view .std{padding:0}
+.grid_content .product-view .std{padding:0; font-size:25px;}
 .product-view .box-collateral,.product-view .box-collateral.box-reviews h2 {border-top:1px solid /*BEGIN:secondary_bgcolor*/#101010/*END:secondary_bgcolor*/; padding-bottom:15px;}
 .product-view .tab-item .box-collateral,
 .product-view .tab-item  .form-add,.product-view .box-collateral.box-reviews,.product-view .tab-item.box-collateral.box-reviews h2   {border:none; }
 .product-view .box-collateral h2, .form-add h2{font:/*BEGIN:h3_font*/normal 18px/1.25 helvetica,arial,sans-serif/*END:h3_font*/;font-weight:bold; padding-top:8px; }
-.product-view .product-essential{margin-bottom:20px}
+.product-view .product-essential{margin-bottom:20px; margin-left: 210px;}
 .addthis{margin-bottom:10px; margin-top:10px}
 .sendfriend-product-send .buttons-set p.back-link{float:left; margin-right:3px}
 /*tab item*/
@@ -481,7 +481,7 @@ padding: 0;position: absolute;bottom: 10px;right: 0;display: block;text-align: r
 /*========= Main ================*/
 .grid_content .std{padding-top:20px}
 .grid_content .std p.primary{display:inline-block; width:100%}
-.grid_content .std .box1 .h1{font:/*BEGIN:h1_font*/bold 24px/1.15 helvetica,arial,sans-serif/*END:h1_font*/}
+.grid_content .std .box1 .h1{text-align:center; font:/*BEGIN:h1_font*/bold 24px/1.15 helvetica,arial,sans-serif/*END:h1_font*/}
 .grid_content .std .primary small{font-weight:bold}
 .grid_content .std p strong.more{color:/*BEGIN:primary_color*/#101010/*END:primary_color*/;font-size:80%;
 background:url(../images/icons.png) 63px -302px no-repeat; padding-right:10px;}
