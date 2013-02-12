@@ -41,9 +41,9 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[root]]></username>
-                    <password><![CDATA[1234]]></password>
-                    <dbname><![CDATA[nho3]]></dbname>
+                    <username><![CDATA[c1nho]]></username>
+                    <password><![CDATA[toetoe10]]></password>
+                    <dbname><![CDATA[c1nho]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
