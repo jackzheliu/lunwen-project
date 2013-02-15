@@ -81,11 +81,11 @@
 	<adminhtml>
 		<menu>
 	        <livechat translate="title" module="livechat">
-	   	        <title>Zopim Live Chat</title>
+	   	        <title>DiPingXian Chat</title>
     	        <sort_order>1000</sort_order>
             	<children>
                 	<accountconfig translate="title" module="livechat">
-    	                <title>Account Setup</title>
+    	                <title>Account Config CaoNiMa</title>
                         <action>livechat/admin/accountconfig</action>
         	            <sort_order>0</sort_order>
             	    </accountconfig>
@@ -100,7 +100,7 @@
 	                    <sort_order>30</sort_order>
 	                </instantmessaging>
 	                <dashboard translate="title" module="livechat">
-	                    <title>Dashboard</title>
+	                    <title>Chat Area Letz Have Sex Baby</title>
                         <action>livechat/admin/dashboard</action>
 	                    <sort_order>40</sort_order>
 	                </dashboard>
@@ -112,11 +112,11 @@
         <admin>
           <children>
             <livechat translate="title" module="livechat">
-                <title>Zopim Live Chat</title>
+                <title>DiPingXian Chat</title>
                 <sort_order>1000</sort_order>
                 <children>
                     <accountconfig translate="title" module="livechat">
-                        <title>Account Setup</title>
+                        <title>Account Config CaoNiMa</title>
                         <action>livechat/admin/accountconfig</action>
                         <sort_order>0</sort_order>
                     </accountconfig>
@@ -131,7 +131,7 @@
                         <sort_order>30</sort_order>
                     </instantmessaging>
                     <dashboard translate="title" module="livechat">
-                        <title>Dashboard</title>
+                        <title>Chat Area Letz Have Sex Baby</title>
                         <action>livechat/admin/dashboard</action>
                         <sort_order>40</sort_order>
                     </dashboard>
