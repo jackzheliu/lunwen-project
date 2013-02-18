@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎来到 新地平线代写中心</title>
-<meta name="description" content="新地平线代写中心" />
-<meta name="keywords" content="新地平线代写中心, 新地平线, 代写, 论文代写" />
+<meta name="description" content="我们是唯一一家注册在英国专为华人留学生提供写作服务的专业的论文代写公司。8年来,我 们秉着诚信，品质第一的态度对待每一项工作，每一个客户，多年 来受到了客户的广泛好评，顾客满意度高达95%, 为英国，澳洲等多个国家的留学生提供一流的Assignment, Essays, Report, Coursework, Case Study, Proposal以及学术Dissertation论文代写和修改服务。我们保证提供100%原创的作品并坚持超高性价比的学术服务。" />
+<meta name="keywords" content="新地平线代写中心, 代写, 论文代写,论文, 论文代写, 留学生论文, 专业提供写作服务的专业的论文代写公司, 英国论文,英国代写,留学生论文,美国论文,澳洲论文,代写essay,英国留学生论文,留学生论文代写,澳洲论文代写,论文翻译" />
 <meta name="robots" content="INDEX,FOLLOW" />
-<link rel="icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon_1.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon_1.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <!--[if lt IE 7]>
@@ -182,7 +182,7 @@ _gaq.push(['_trackPageview']);
 - padding of  #grid_area1 ul.hoz as design.
 -->
 <ul class="none hoz f-left">
-<li><a href="http://nho2.zhezhe.eu/index.php/">NHO首页</a></li>
+<li><a href="http://www.nholunwen.co.uk/">NHO首页</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/mainproducts">主打产品</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/dipingmoney/yuanbao.html">支付论文</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/nhorecurit">诚聘英才</a></li>
@@ -505,7 +505,8 @@ _gaq.push(['_trackPageview']);
 <div class="grid_4 omega prefix_1 small">
 <p class="primary"><span style="font-size: large;"><strong>联系我们</strong></span></p>
 <ul>
-<li><span style="font-size: small;"><a>直拨电话: 01159500074<br /></a></span></li>
+<li><span style="font-size: small;"><a>直拨电话: +44 118 328 0938<br /></a></span></li>
+<li><span style="font-size: small;"><a>直拨电话: +44 115 950 0074<br /></a></span></li>
 <li><span style="font-size: small;"><a>QQ专线: 2506508877<br /></a></span></li>
 </ul>
 </div>
@@ -1931,7 +1932,7 @@ document.observe("dom:loaded", function() {
 
 	new Ajax.JSONRequest('http://www.nholunwen.co.uk/index.php/ezzoom/hole/fill', {
 		parameters: {isAjax: true,
-			     id:    '9',
+			     id:    '49',
 			     key:   'eJzTL0ss0i8vL9dPzslMzSsphtKG+uWpSWBCH6SgKj8/Vz8lNS2xNKdEPzMvJbVCryCjQD/K39833tPPxTUCXDCtXCIZoA==',
 			     holes: 'eJx1UsFqwzAM/RefS1J6GKz3sl7GYCvs0Azj2WpiYlvBdshGyb9PShqyDnaxn5+e5VwnyVfRoIMk9lcRMFv9B4ra4adyciHGjWhAGYisWtANbGrI7+A0emCds6Gdkt2AyNgVM6aoVjFzcN6nTZKAQx5SUvVsZMWLk4Xh155cIvYdmGP2Tqz3diT+TzVS/j469pxzt6/KqhyGoQjUhD4MEAqNRd9WpQ0Gvoqu6apSsFndgGzhW9pwQbE/C40RqjLRKxbDpMjKYX1HNaBb7PMd16dM7Ykr90ENVcFMIzgLAxfVu8xKn2RHFRB8O728HuQaOh0Pzwd5iRgyBLMEJPjt9mF3uzr5n1diOJHEXDBSU5n+txFJpmswknyyFU05IzruvLE8WZW04FF6y1N65C6jAZ5GtIZOGOcf0GGymesZxx9kxtCv'
 		},
@@ -1952,7 +1953,29 @@ document.observe("dom:loaded", function() {
 //]]> 
 </script>
 
-</div>    </div>
+
+
+
+
+
+
+      <!-- Start of Zopim Live Chat Script -->
+      <script type="text/javascript">
+      document.write(unescape("%3Cscript src='" + document.location.protocol + "//zopim.com/?10dms5saWoc5APrtjijBTTy8j5n9ZWaT' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+      <!-- End of Zopim Live Chat Script -->
+      
+      <script type="text/javascript">$zopim.livechat.set({ language: 'zh_CN'      });
+$zopim.livechat.button.setPosition('br');
+$zopim.livechat.window.setTheme('alphacube');
+$zopim.livechat.window.setColor('#ff2400');
+$zopim.livechat.bubble.setTitle('联系客服');
+$zopim.livechat.bubble.setText('点击这里联系客服');
+$zopim.livechat.setGreetings({
+            'online': ['客服在线', '现在即时为你解答问题'],
+            'offline': ['客服不在线', '客服不在线  请留言'],
+            'away': ['客服吃东西去了', '客服吃东西去了  但是会马上回来给你解答问题']})
+      </script></div>    </div>
 </div>
 </body>
 </html>

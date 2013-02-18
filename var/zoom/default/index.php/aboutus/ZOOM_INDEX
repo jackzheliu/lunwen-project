@@ -4,10 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>地平线代写中心-关于我们</title>
 <meta name="description" content="新地平线代写中心" />
-<meta name="keywords" content="新地平线代写中心, 新地平线, 代写, 论文代写" />
+<meta name="keywords" content="新地平线 代写 代写中心 论文代写" />
 <meta name="robots" content="INDEX,FOLLOW" />
-<link rel="icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon_1.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.nholunwen.co.uk/media/favicon/default/favicon_1.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <!--[if lt IE 7]>
@@ -182,7 +182,7 @@ _gaq.push(['_trackPageview']);
 - padding of  #grid_area1 ul.hoz as design.
 -->
 <ul class="none hoz f-left">
-<li><a href="http://nho2.zhezhe.eu/index.php/">NHO首页</a></li>
+<li><a href="http://www.nholunwen.co.uk/">NHO首页</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/mainproducts">主打产品</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/dipingmoney/yuanbao.html">支付论文</a></li>
 <li><a href="http://www.nholunwen.co.uk/index.php/nhorecurit">诚聘英才</a></li>
@@ -346,7 +346,8 @@ _gaq.push(['_trackPageview']);
 <div class="grid_4 omega prefix_1 small">
 <p class="primary"><span style="font-size: large;"><strong>联系我们</strong></span></p>
 <ul>
-<li><span style="font-size: small;"><a>直拨电话: 01159500074<br /></a></span></li>
+<li><span style="font-size: small;"><a>直拨电话: +44 118 328 0938<br /></a></span></li>
+<li><span style="font-size: small;"><a>直拨电话: +44 115 950 0074<br /></a></span></li>
 <li><span style="font-size: small;"><a>QQ专线: 2506508877<br /></a></span></li>
 </ul>
 </div>
@@ -1772,7 +1773,7 @@ document.observe("dom:loaded", function() {
 
 	new Ajax.JSONRequest('http://www.nholunwen.co.uk/index.php/ezzoom/hole/fill', {
 		parameters: {isAjax: true,
-			     id:    '6',
+			     id:    '48',
 			     key:   'eJzTL0ss0i8vL9dPzslMzSsphtKG+uWpSWBCH6SgKj8/Vz8lNS2xNKdEPzMvJbVCryCjQD8xKb+0pLRYP8rf3zfe08/FNQJcMJBcIhzS',
 			     holes: 'eJx1Uk1rwzAM/S8+l6T0MFjvZb2MwVbYoRnGtdXExLGCP5aNkv8+KW1IN9jJz9Kz9KTni2jQQRTbi/CYrP4DRe3wpJycA+NKNKAMBGbN6AZWNaR3cBo7YJ6zvp2K3YBI2BdXTFmtQuLk9ZwOSQROdRCjqq9CFjwrmSPc7Slg7sHsU+fE8m5D5P9YI9XPwbHmlPptVVblMAyFpyVkP4AvNBa5rUrrDXwVfdNXpTphTjkK1qwbkC18S+vPKLZHoTFAVUZqZtFPjKQc1r9CDeiWKvyK5ZhoS2GJfdBelTeTE0dh4KyyS8zsouxpEIJvh5fXnVxcUof97nlcJ88BfQJv5oSEbr1+2Nw9lZ8WBrpPOA0oNc3a+SiDrZt0p0aS8hqMJLGsR1PhgI5dMJZdVlELtrWz7NgjbxwNsDPBGrphuP6GHqNNPNQ4/lwwMH3V4g=='
 		},
@@ -1793,7 +1794,29 @@ document.observe("dom:loaded", function() {
 //]]> 
 </script>
 
-</div>    </div>
+
+
+
+
+
+
+      <!-- Start of Zopim Live Chat Script -->
+      <script type="text/javascript">
+      document.write(unescape("%3Cscript src='" + document.location.protocol + "//zopim.com/?10dms5saWoc5APrtjijBTTy8j5n9ZWaT' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+      <!-- End of Zopim Live Chat Script -->
+      
+      <script type="text/javascript">$zopim.livechat.set({ language: 'zh_CN'      });
+$zopim.livechat.button.setPosition('br');
+$zopim.livechat.window.setTheme('alphacube');
+$zopim.livechat.window.setColor('#ff2400');
+$zopim.livechat.bubble.setTitle('联系客服');
+$zopim.livechat.bubble.setText('点击这里联系客服');
+$zopim.livechat.setGreetings({
+            'online': ['客服在线', '现在即时为你解答问题'],
+            'offline': ['客服不在线', '客服不在线  请留言'],
+            'away': ['客服吃东西去了', '客服吃东西去了  但是会马上回来给你解答问题']})
+      </script></div>    </div>
 </div>
 </body>
 </html>
