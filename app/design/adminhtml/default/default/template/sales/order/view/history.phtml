@@ -1,4 +1,4 @@
-<?php
+s<?php
 /**
  * Magento
  *
@@ -44,6 +44,9 @@
             <?php if ($this->canSendCommentEmail()): ?>
                 <input name="history[is_customer_notified]" type="checkbox" id="history_notify" value="1" /><label class="normal" for="history_notify"> <?php echo Mage::helper('sales')->__('Notify Customer by Email') ?></label><br />
             <?php endif; ?>
+
+            <input name="comment[nofity_sms]" type="checkbox" id="notify_sms" value="1" /><label class="normal" for="history_visible"> <?php echo Mage::helper('sales')->__('Notify Customer by SMS') ?></label>
+
             <input name="history[is_visible_on_front]" type="checkbox" id="history_visible" value="1" /><label class="normal" for="history_visible"> <?php echo Mage::helper('sales')->__('Visible on Frontend') ?></label>
         </div>
         <div class="f-right">
