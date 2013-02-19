@@ -282,13 +282,14 @@ class Mage_Adminhtml_Sales_OrderController extends Mage_Adminhtml_Controller_Act
                 $sms_key = Mage::getStoreConfig('lunwen_textmess/settings/sms_key');
                 $sms_number = Mage::getStoreConfig('lunwen_textmess/settings/sms_number');
 
-                print "###";
-                print $notifysms;
 
+                if ($notifysms === '1'){
 
                 $customerPhoneNumber = '+44'.$order->getBillingAddress()->getTelephone();
-
                 $sendInfoText = Mage::helper('lunwen_textmess')->sendingText($customerPhoneNumber,$sms_api, $sms_key, $sms_number, $comment);
+                }
+
+                
 
 
 
