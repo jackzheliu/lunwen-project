@@ -265,6 +265,7 @@ class Mage_Adminhtml_Sales_OrderController extends Mage_Adminhtml_Controller_Act
                 $data = $this->getRequest()->getPost('history');
                 $notify = isset($data['is_customer_notified']) ? $data['is_customer_notified'] : false;
                 $visible = isset($data['is_visible_on_front']) ? $data['is_visible_on_front'] : false;
+                $notifysms = isset($data['nofity_sms']) ? $data['nofity_sms'] : false;
 
                 $order->addStatusHistoryComment($data['comment'], $data['status'])
                     ->setIsVisibleOnFront($visible)
@@ -280,6 +281,10 @@ class Mage_Adminhtml_Sales_OrderController extends Mage_Adminhtml_Controller_Act
                 $sms_api = Mage::getStoreConfig('lunwen_textmess/settings/sms_api');
                 $sms_key = Mage::getStoreConfig('lunwen_textmess/settings/sms_key');
                 $sms_number = Mage::getStoreConfig('lunwen_textmess/settings/sms_number');
+
+                print "###";
+                print $notifysms;
+
 
                 $customerPhoneNumber = '+44'.$order->getBillingAddress()->getTelephone();
 
