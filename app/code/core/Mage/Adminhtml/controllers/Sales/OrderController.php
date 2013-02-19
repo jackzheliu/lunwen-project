@@ -275,6 +275,18 @@ class Mage_Adminhtml_Sales_OrderController extends Mage_Adminhtml_Controller_Act
                 $order->save();
                 $order->sendOrderUpdateEmail($notify, $comment);
 
+
+                //send sms alert
+                $sms_api = Mage::getStoreConfig('lunwen_textmess/settings/sms_api');
+                $sms_key = Mage::getStoreConfig('lunwen_textmess/settings/sms_key');
+                $sms_number = Mage::getStoreConfig('lunwen_textmess/settings/sms_number');
+
+                $customerPhoneNumber = '+44'.$order->getBillingAddress()->getTelephone();
+
+                $sendInfoText = Mage::helper('lunwen_textmess')->sendingText($customerPhoneNumber,$sms_api, $sms_key, $sms_number, $comment);
+
+
+
                 $this->loadLayout('empty');
                 $this->renderLayout();
             }
