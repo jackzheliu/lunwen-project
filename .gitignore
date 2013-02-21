@@ -11,6 +11,7 @@
 /var/sitemap/*
 /var/tmp/*
 /var/ait_rewrite/*
+/var/zoom/default/*
 !var/*/.gitignore
 .ftpquota
 .DS_Store
