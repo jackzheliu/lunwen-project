@@ -446,6 +446,8 @@ line-height:30px;padding:0 15px;margin-bottom:6px;}
 .qrcode  li{width:49px;}
 .qrcode li a span{display:block;width:47px;height:47px;background: url("../images/i_mobile.png") no-repeat scroll 0 0 transparent;text-indent: -999px;top: 307px;
  width:47px;height:47px;text-indent:-99999px;border:#cecece 1px solid;border-left:none; border-top:none;}
+ .qrcode li a span1{display:block;width:47px;height:47px;background: url("../images/qq.png") no-repeat scroll 0 0 transparent;text-indent: -999px;top: 307px;
+ width:47px;height:47px;text-indent:-99999px;border:#cecece 1px solid;border-left:none; border-top:none;}
 .qrcode li a img{border:1px solid #CECECE;padding:20px;background:#fff; z-index:99;}
 
 
