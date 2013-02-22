@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
-        <sms_receivesms>
+        <Sms_Receivesms>
             <version>0.0.1</version>
-        </sms_receivesms>
+        </Sms_Receivesms>
     </modules>
     <frontend>
         <routers>
