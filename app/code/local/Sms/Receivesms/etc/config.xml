@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <sms_receivesms>
+            <version>0.0.1</version>
+        </sms_receivesms>
+    </modules>
+    <frontend>
+        <routers>
+            <receivesms>
+                <use>standard</use>
+                <args>
+                    <module>Sms_Receivesms</module>
+                    <frontName>receivesms</frontName>
+                </args>
+            </receivesms>
+        </routers>   
+    </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Sms_Receivesms>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sms_Receivesms>
+    </modules>
+</config>
