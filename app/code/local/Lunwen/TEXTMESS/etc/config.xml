@@ -17,7 +17,7 @@
             </lunwen_textmess>
         </helpers>
         <events>
-            <checkout_onepage_controller_success_action>
+            <sales_order_payment_pay>
                 <observers>
                     <lunwen_textmess_sendtext>
                       <type>singleton</type>
@@ -25,7 +25,7 @@
                       <method>sendtext</method>
                     </lunwen_textmess_sendtext>
                 </observers>
-            </checkout_onepage_controller_success_action>
+            </sales_order_payment_pay>
             <sales_order_save_before>
                 <observers>
                     <lunwen_textmess_textStatus>
