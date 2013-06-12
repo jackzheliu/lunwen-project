@@ -2,9 +2,6 @@ User-agent: *
 # Allowable Index
 Allow: /*?p=
 Allow: /index.php/
-Allow: /catalog/seo_sitemap/category/
-Allow: /catalogsearch/result/
-Allow: /media/
 # Directories
 Disallow: /404/
 Disallow: /app/
@@ -23,6 +20,8 @@ Disallow: /skin/
 Disallow: /stats/
 Disallow: /var/
 # Paths (clean URLs)
+Disallow: /sales/guest/
+Disallow: /catalog/seo_sitemap/
 Disallow: /catalog/product_compare/
 Disallow: /catalog/category/view/
 Disallow: /catalog/product/view/
@@ -38,6 +37,29 @@ Disallow: /review/
 Disallow: /sendfriend/
 Disallow: /tag/
 Disallow: /wishlist/
+Disallow: /index.php/sales/guest/
+Disallow: /index.php/catalog/seo_sitemap/
+Disallow: /index.php/catalog/seo_sitemap/product/
+Disallow: /index.php/review/product/
+Disallow: /index.php/tag/
+Disallow: /index.php/electronics/
+Disallow: /index.php/apparel/
+Disallow: /index.php/catalog/product_compare/
+Disallow: /index.php/catalog/category/view/
+Disallow: /index.php/catalog/product/view/
+Disallow: /index.php/catalogsearch/
+Disallow: /index.php/checkout/
+Disallow: /index.php/control/
+Disallow: /index.php/contacts/
+Disallow: /index.php/customer/
+Disallow: /index.php/customize/
+Disallow: /index.php/newsletter/
+Disallow: /index.php/poll/
+Disallow: /index.php/review/
+Disallow: /index.php/sendfriend/
+Disallow: /index.php/tag/
+Disallow: /index.php/wishlist/
+
 # Files
 Disallow: /cron.php
 Disallow: /cron.sh
